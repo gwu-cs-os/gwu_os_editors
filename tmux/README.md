@@ -18,12 +18,13 @@ I'm not going to give too much of an overview of tmux mechanics as these links d
 The `.tmux.conf` file that is included here provides a minimal set of functionality.
 If you love `tmux`, you will likely end up extending it!
 You can find many great configurations online.
-The functionality provided by this configuration:
+The functionality provided by this configuration follows.
 
-- You need a way to tell `tmux`, "I want to give you a command".
-    This is the command sequence.
-	In this configuration, the command sequence is `cntl-t` (i.e. hold the `control` button, then press `t`).
-	The next keypresses you make will be interpreted as a command to `tmux`, which are listed in the following.
+First, you need a way to tell `tmux`, "I want to give you a command".
+This is called the command sequence.
+In this configuration, the command sequence is `cntl-t` (i.e. hold the `control` button, then press `t`).
+The next keypresses you make will be interpreted as a command to `tmux`, which are listed in the following:
+
 - `c` (`cntl-t` then `c`) will create a new terminal.
     Easy as that.
 - `x` will kill the current terminal, and kill whatever is running in it.
