@@ -70,12 +70,12 @@ $ sudo apt install -y vim
     - "r" -> replace a single character
     - "Replace" -> goes to replace mode; every keystroke replaces the character under the cursor; press "esc" to go back to command mode
 - Searching
-    - "/`<`pattern`>`" -> search for pattern below current position
-    - "?`<`pattern`>`" -> search for pattern above current position
+    - "/`<`pattern`>`" -> search for `<`pattern`>` below current position
+    - "?`<`pattern`>`" -> search for `<`pattern`>` above current position
     - both operations wrap around
 - Search and replace
-    - ":%s/`<`old`>`/`<`new`>`/g" -> search for all occurrences of old in file and replace with new
-    - ":%s/`<`old`>`/`<`new`>`/g" -> same as above but waits at all occurrences of old for confirmation to replace
+    - ":%s/`<`old`>`/`<`new`>`/g" -> search for all occurrences of `<`old`>` in file and replace with `<`new`>`
+    - ":%s/`<`old`>`/`<`new`>`/g" -> same as above but waits at all occurrences of `<`old`>` for confirmation to replace
 - Buffer management
     - ":ls" -> show all files open in vim
         - ordered list
