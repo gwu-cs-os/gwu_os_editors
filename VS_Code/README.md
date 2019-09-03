@@ -24,13 +24,13 @@ The settings file can be opened from the command palette.
 ## Setting up clang
 This is done on the Ubuntu system:
 1. Installing clang
-        ```
-        sudo apt install clang-format
-        ```
+```
+sudo apt install clang-format
+```
 2. Create the default format file in the root directory of your project:
-        ```
-        clang-format -style=llvm -dump-config > .clang-format
-        ```
+```
+clang-format -style=llvm -dump-config > .clang-format
+```
 3. Change the formatter to suit Linux/Composite style (to some extent)
     - Open the .clang-format file with any editor
 ```
@@ -49,13 +49,20 @@ Host os
         HostName 192.168.56.110
 ```
 In this case, the static IP of the VM is `192.168.56.110` and have named it `os`. The name can be absolutely anything.
+
 3. Set up public/private keys
     - Run the following command and follow the instructions
-`$ ssh-keygen -t rsa`
+```
+$ ssh-keygen -t rsa
+```
 4. Copy the key over to the development system
-`$ ssh-copy-id os`
+```
+$ ssh-copy-id os
+```
 5. Check the connections
-`$ ssh os`
+```
+$ ssh os
+```
 ### On Windows
 There are some suggestions in this link
 https://www.tecmint.com/ssh-passwordless-login-with-putty/
