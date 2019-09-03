@@ -28,7 +28,11 @@ These are good resources to get started with:
 
 ## Included configuration
 
-None provided yet, but will likely add in the future after working through HW1.
+This repo contains project-level config files in `.vscode`. To use these files, copy this hidden directory in your project's root directory. Depending on the coding standards of your project, these config files may need to be added to `.gitignore` to avoid cluttering repositories with editor-specific config files.
+
+The provided tasks in `tasks.json` assume that the project contains a Makefile while builds via `make` and cleans via `make clean`. Depending on your project, you may want to modify or create new tasks based on these templates.
+
+The `launch.json` file contains a key at `configurations.program` that corresponds to a binary compiled with the `-g` debugging flag. This is currently set to `${workspaceFolder}/test`. Depending on how your makefile is configured, you may need to update this key to the path and name of your binary.
 
 ## Links and References
 
