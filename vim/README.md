@@ -76,7 +76,12 @@ $ sudo apt install -y vim
 - Search and replace
     - ":%s/<old>/<new>/g" -> search for all occurrences of old in file and replace with new
     - ":%s/<old>/<new>/g" -> same as above but waits at all occurrences of old for confirmation to replace
-
+- Buffer management
+    - ":ls" -> show all files open in vim
+        - ordered list
+    - ":b#" -> go to the previous file being edited
+    - ":b5" -> go to the file open in the 5th vim buffer
+    
 ## Other modes
 - Visual mode
     - Press "v" in command mode to get visual mode. Then you can move with arrow keys to select areas of text and then use the above shortcuts to yank or delete.
