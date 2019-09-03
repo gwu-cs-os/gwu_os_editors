@@ -4,7 +4,9 @@ Emacs is a versatile editor that has modes for many different programming langua
 Because of this, there is a learning curve.
 
 The `.emacs` file here includes some customization and provides a good `C` programming environment.
+Copy it into your home directory (`cp .emacs ~/`) and start up emacs (`emacs`).
 However, it also maintains the ability to use the mouse, and has menus, thus is easier to use as you learn the system.
+If you find that you're getting the hang of using emacs without the mouse, then `emacs -nw` makes it play well with `tmux`.
 
 ## Basic Editing
 
