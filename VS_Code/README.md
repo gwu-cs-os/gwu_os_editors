@@ -33,12 +33,12 @@ This is done on the Ubuntu system:
         ```
 3. Change the formatter to suit Linux/Composite style (to some extent)
     - Open the .clang-format file with any editor
-            ```
-            AlwaysBreakAfterReturnType: All
-            BreakBeforeBraces: Linux
-            IndentWidth:     8
-            TabWidth:        8
-            ```
+```
+AlwaysBreakAfterReturnType: All
+BreakBeforeBraces: Linux
+IndentWidth:     8
+TabWidth:        8
+```
 
 ## Optionally set up remote programming environment
 ### Set up passwordless SSH (this will work for MAC or Linux based laptops)
