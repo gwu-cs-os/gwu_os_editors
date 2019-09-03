@@ -42,3 +42,7 @@ The next keypresses you make will be interpreted as a command to `tmux`, which a
 - [source and documentation](https://github.com/tmux/tmux)
 - [FAQ](https://github.com/tmux/tmux/wiki/FAQ)
 - [man page](http://man.openbsd.org/OpenBSD-current/man1/tmux.1)
+
+## Deep TMUX
+- Rename this to .tmux.conf in your home directory if you intend to use it.
+- It was taken from: https://github.com/gpakosz/.tmux.git
