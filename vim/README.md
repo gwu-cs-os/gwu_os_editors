@@ -68,7 +68,7 @@ $ sudo apt install -y vim
     - "gg" -> go to beginning of file
 - Replace
     - "r" -> replace a single character
-    - "Replace" -> goes to replace mode; every keystroke replaces the character under the cursor; press "esc" to go back to command mode
+    - "R" -> goes to replace mode; every keystroke replaces the character under the cursor; press "esc" to go back to command mode
 - Searching
     - "/`<`pattern`>`" -> search for `<`pattern`>` below current position
     - "?`<`pattern`>`" -> search for `<`pattern`>` above current position
