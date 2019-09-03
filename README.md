@@ -8,3 +8,6 @@ Please do pull requests for additional tools.
 
 If you want to use a tool, copy the dotfile(s) for it to your home directory (unless otherwise noted).
 The `README.md` in each tool's directory should include an overview of the tool, an overview of how to use it (for beginners), and a set of links for people to learn more.
+
+## Regarding VIM config
+Just copy the file onto your home directory as .vimrc.
