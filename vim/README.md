@@ -49,7 +49,7 @@ $ sudo apt install -y vim
     - "d" + "shift + g" -> remove everything from cursor position to end of file
     - "d" + "gg" -> remove everything from cursor to beginning of file
 - Opening a new file
-    - ":edit <filename>"
+    - ":edit `<`filename`>`"
 - Saving a file
     - ":w"
 - Closing a file
@@ -59,7 +59,7 @@ $ sudo apt install -y vim
 - Undoing the last change
     - "u" or ":u"
 - Go to line
-    - ":<line number>"
+    - ":`<`line number`>`"
 - Moving out of insert or visual mode
     - Command mode is the default mode
     - "esc" -> move out of a non-command mode
@@ -70,18 +70,18 @@ $ sudo apt install -y vim
     - "r" -> replace a single character
     - "Replace" -> goes to replace mode; every keystroke replaces the character under the cursor; press "esc" to go back to command mode
 - Searching
-    - "/<pattern>" -> search for pattern below current position
-    - "?<pattern>" -> search for pattern above current position
+    - "/`<`pattern`>`" -> search for pattern below current position
+    - "?`<`pattern`>`" -> search for pattern above current position
     - both operations wrap around
 - Search and replace
-    - ":%s/<old>/<new>/g" -> search for all occurrences of old in file and replace with new
-    - ":%s/<old>/<new>/g" -> same as above but waits at all occurrences of old for confirmation to replace
+    - ":%s/`<`old`>`/`<`new`>`/g" -> search for all occurrences of old in file and replace with new
+    - ":%s/`<`old`>`/`<`new`>`/g" -> same as above but waits at all occurrences of old for confirmation to replace
 - Buffer management
     - ":ls" -> show all files open in vim
         - ordered list
     - ":b#" -> go to the previous file being edited
     - ":b5" -> go to the file open in the 5th vim buffer
-    
+
 ## Other modes
 - Visual mode
     - Press "v" in command mode to get visual mode. Then you can move with arrow keys to select areas of text and then use the above shortcuts to yank or delete.
@@ -90,7 +90,7 @@ $ sudo apt install -y vim
 
 ## Splitting vim panes
 - ":hsplit" -> split the panes horizontally
-    - ":hsplit <filename>" to open file in a new horizontally split pane
+    - ":hsplit `<filename`>" to open file in a new horizontally split pane
 - ":vsplit" -> split the panes vertically
 - If using NerdTree (a popular directory package), you can simply select the file and hit "s" to open it in a vertically split pane
 
