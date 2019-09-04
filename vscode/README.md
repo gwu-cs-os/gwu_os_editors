@@ -126,8 +126,7 @@ $ ssh-copy-id os
 $ ssh os
 ```
 ### On Windows
-There are some suggestions in this link
-https://www.tecmint.com/ssh-passwordless-login-with-putty/
+There are some suggestions in this [link](https://www.tecmint.com/ssh-passwordless-login-with-putty/)
 
 ### VS Code Extension
 [Remote-SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
