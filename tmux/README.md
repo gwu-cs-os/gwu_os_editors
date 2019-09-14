@@ -47,7 +47,7 @@ The next keypresses you make will be interpreted as a command to `tmux`, which a
 - Open a new session
     - tmux new
     - tmux new dev -> named session called "dev"
-- Tmux command mode (Ctrl + b)
+- Tmux command mode (Ctrl + t)
     - New horizontal pane -> %
     - New vertical pane -> "
     - Hide a pane -> :break-pane -dP
