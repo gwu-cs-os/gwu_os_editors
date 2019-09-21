@@ -42,3 +42,16 @@ The next keypresses you make will be interpreted as a command to `tmux`, which a
 - [source and documentation](https://github.com/tmux/tmux)
 - [FAQ](https://github.com/tmux/tmux/wiki/FAQ)
 - [man page](http://man.openbsd.org/OpenBSD-current/man1/tmux.1)
+
+## Some tmux shortcuts
+- Open a new session
+    - tmux new
+    - tmux new dev -> named session called "dev"
+- Tmux command mode (Ctrl + t)
+    - New horizontal pane -> %
+    - New vertical pane -> "
+    - Hide a pane -> :break-pane -dP
+        - shows window identification being hidden like - 0:2.1
+    - Rejoining a window
+        - join-pane -hs 2.1 -> joining 0:2.1 horizontally
+        - join-pane -vs 2.1 -> joining 0:2.1 vertically
